@@ -1,10 +1,11 @@
+// pages/dataset.js
 import React from 'react';
-
+import Dataset from '../components/Dataset';
 
 const DatasetPage = () => {
   return (
     <div>
-      <dataset />
+      <Dataset />
     </div>
   );
 };

@@ -1,13 +1,11 @@
-
 import React from 'react';
 
-const Dataset = () => {
+const DatasetPage = () => {
   return (
     <div>
-      <h1>Dataset Page</h1>
-      <p>This is the dataset page content.</p>
+      <h1>This is the dataset page</h1>
     </div>
   );
 };
 
-export default Dataset;
+export default DatasetPage;
