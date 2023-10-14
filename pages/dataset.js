@@ -13,7 +13,7 @@ export default function Dataset() {
     <main className={`flex min-h-screen flex-col justify-between ${inter.className}`}>
       <div className="bg-white py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto -mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+          <div className="grid lg: grid-cols-2 mx-auto -mt-20 grid max-w-2xl grid-cols-1 gap-x-8 sm:gap-y-20 lg:mx-0 lg:max-w-none">
             <div>
                 <h2 className="mt-20 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                     Dataset
@@ -21,15 +21,15 @@ export default function Dataset() {
                 <p className="mt-5 text-lg leading-8 text-gray-600">
                     Explore, analyze, and share quality data. Learn more about data types, creating, and collaborating.
                 </p>
-                <button className="mt-5 bg-black text-white font-bold py-2 px-4 rounded">+ New Dataset</button>
+                <button className="mt-5 bg-indigo-600 text-white font-bold py-2 px-4 rounded">+ New Dataset</button>
             </div>
             <div className="flex justify-center">
               <img
                 src="/dataset.png"
                 alt="dataset illustration"
                 className="w-[25rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[25rem] md:-ml-0 lg:-ml-0"
-                width={200}
-                height={100}
+                width={150}
+                height={50}
               />
             </div>
           </div>
@@ -74,7 +74,7 @@ export default function Dataset() {
                   <p className="text-gray-600">Co-Founder / CTO</p>
                 </div>
               </div>
-              <button className="mt-10 bg-black text-white font-bold py-2 px-4 rounded self-center">Buy Now</button>
+              <button className="mt-10 bg-indigo-600 text-white font-bold py-2 px-4 rounded self-center">Buy Now</button>
             </article>
 
             <article className="flex max-w-xl flex-col items-start justify-between border border-gray-300 p-4 rounded-md pb-10 ">
@@ -116,7 +116,7 @@ export default function Dataset() {
                   <p className="text-gray-600">Co-Founder / CTO</p>
                 </div>
               </div>
-              <button className="mt-10 bg-black text-white font-bold py-2 px-4 rounded self-center">Buy Now</button>
+              <button className="mt-10 bg-indigo-600 text-white font-bold py-2 px-4 rounded self-center">Buy Now</button>
             </article>
 
             <article className="flex max-w-xl flex-col items-start justify-between border border-gray-300 p-4 rounded-md pb-10 ">
@@ -158,7 +158,7 @@ export default function Dataset() {
                   <p className="text-gray-600">Co-Founder / CTO</p>
                 </div>
               </div>
-              <button className="mt-10 bg-black text-white font-bold py-2 px-4 rounded self-center">Buy Now</button>
+              <button className="mt-10 bg-indigo-600 text-white font-bold py-2 px-4 rounded self-center">Buy Now</button>
             </article>
 
 
