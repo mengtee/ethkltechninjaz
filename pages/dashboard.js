@@ -35,9 +35,9 @@ export default function Dashboard() {
   return (
     <RootLayout>
     {/* heading */}
-    <div class="lg:flex lg:items-center lg:justify-between">
+    <div class="ml-10 mr-10 mt-10 lg:flex lg:items-center lg:justify-between">
         <div class="min-w-0 flex-1">
-            <h2 class="text-2xl font-bold leading-7 text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight">Dashboard</h2>
+            <h2 className="mt-2 text-3xl font-bold leading-9 tracking-tight text-gray-900 sm:text-4xl">Dashboard</h2>
         </div>
     </div>
     
@@ -51,7 +51,7 @@ export default function Dashboard() {
 
             <div className="flex items-center gap-x-6">
                 <div>
-                  <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">Name</h3>
+                  <h3 className="text-2xl font-semibold leading-7 tracking-tight text-gray-900">Name</h3>
                   <p className="text-sm font-semibold leading-6 text-indigo-600">Add bio</p>
                   <p className="text-sm font-semibold leading-6 text-indigo-600">Add occupation</p>
                   <p className="text-sm font-semibold leading-6 text-indigo-600">Add organisation</p>

@@ -9,40 +9,34 @@ import RootLayout from '@/components/RootLayout'
 
 const features = [
   {
-    name: 'Push to deploy.',
+    name: 'Tokenized Payments.',
     description:
       'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
     icon: CloudArrowUpIcon,
   },
   {
-    name: 'SSL certificates.',
+    name: 'Privacy and Security',
     description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
     icon: LockClosedIcon,
   },
   {
-    name: 'Database backups.',
+    name: 'Data Access Control.',
     description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
     icon: ServerIcon,
   },
 ]
 
-export default function Example() {
+export default function Home() {
   return (
     <RootLayout>
-    {/* heading */}
-    <div class="lg:flex lg:items-center lg:justify-between">
-        <div class="min-w-0 flex-1">
-            <h2 class="text-2xl font-bold leading-7 text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight">We are First Timers</h2>
-        </div>
-    </div>
 
     <div className="overflow-hidden bg-white">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <h2 className="text-base font-semibold leading-7 text-indigo-600">Deploy faster</h2>
-              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A better workflow</p>
+              <h2 className="text-base font-semibold leading-7 text-indigo-600">Discover, Access, and Trade Tokenized Data</h2>
+              <p className="mt-2 text-3xl font-bold leading-9 tracking-tight text-gray-900 sm:text-4xl">Your Marketplace for Tokenized Data Sets</p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque,
                 iste dolor cupiditate blanditiis ratione.
@@ -67,6 +61,7 @@ export default function Example() {
             width={2432}
             height={1442}
           />
+          
         </div>
       </div>
     </div>
